@@ -1,0 +1,56 @@
+.navbar {
+	position: relative;
+	z-index: 100;
+	padding: 0
+}
+
+.navbar .controlled-block {
+	height: 100%
+}
+
+.navbar.ant-layout-header {
+	padding: 0;
+	font-size: 14px
+}
+
+.navbar .ant-menu-dark,
+.navbar .ant-menu-dark .ant-menu-sub {
+	background-color: transparent
+}
+
+.navbar .ant-menu-dark.ant-menu-horizontal {
+	border-bottom-color: transparent
+}
+
+.navbar .ant-menu-dark .ant-menu-item,
+.navbar .ant-menu-dark .ant-menu-item-group-title,
+.navbar .ant-menu-dark .ant-menu-item>a {
+	color: #fff
+}
+
+.navbar .ant-menu.ant-menu-dark .ant-menu-item-selected {
+	background-color: transparent
+}
+
+.navbar .navbar-logo {
+	display: inline-block;
+	height: 45px;
+	width: 120px;
+	margin-right: 10px;
+	background: url(../img/m5_logo.png?v_20170905) no-repeat left center/cover
+}
+
+.navbar .navbar-account {
+	line-height: initial
+}
+
+.navbar .btn-deposit {
+	background: #21c546;
+	border-color: #21c546;
+	color: #fff
+}
+
+.navbar .btn-draw {
+	background: #ffdb4a;
+	border-color: #ffdb4a
+}

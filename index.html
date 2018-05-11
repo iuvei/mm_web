@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>M5II</title>
+    <link rel="icon" href="static/img/favicon.ico">
+    <script src="../static/js/clipboard.min.js"></script>
+    <style type="text/css">
+    	@-ms-viewport {
+      width: device-width;
+    }
+    html,body{
+    font-family: Helvetica Neue For Number,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size:12px;
+    line-height: 1.5;
+    color: rgba(0,0,0,.65);
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    		 }
+    	a{
+    		text-decoration: none !important;
+    		color: #108ee9 ;
+    	}
+    	.ivu-page-item-active{
+    		background: linear-gradient(0,#272a32 0,#4b4e58 100%);;
+    	}
+    	#appLoading { width: 100%; height: 100%; }
+      #appLoading img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        -webkit-transform: translateY(-50%)  translateX(-50%);
+        transform: translateY(-50%)  translateX(-50%);
+      }
+    </style>
+
+  </head>
+  <body>
+  	<script src="../static/js/md5.js"></script>
+    <script defer src="../static/js/erCode.js"></script>
+  	<script type="text/javascript" src="../static/js/moment.js" ></script>
+  	<script src="../static/js/all.min.js"></script>
+  	<!--<script src="konva.min.js"></script>-->
+  	<div id="appLoading">
+      <img src="../static/img/lg.messenger-typing-preloader.gif" alt="loading" />
+    </div>
+    <div id="app"></div>
+    <script type="text/javascript" src="../static/js/polyfill.min.js" ></script>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
